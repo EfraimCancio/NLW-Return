@@ -1,13 +1,22 @@
 
 import * as Icon from "phosphor-react";
 import { Popover } from '@headlessui/react'
+import { WidgetForm } from "./WidgetForm";
 
 
 export function Widget ()  {
    
     return (
-        <Popover className="absolute bottom-5 right-5">
-            <Popover.Panel>Hello Efras</Popover.Panel> 
+        <Popover className="
+            absolute 
+            bottom-5 
+            left-5
+            flex
+            flex-col
+            items-end">
+            <Popover.Panel>
+                <WidgetForm/>
+            </Popover.Panel> 
 
             < Popover.Button  className="
                 bg-brand-500 
