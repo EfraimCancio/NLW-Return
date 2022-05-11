@@ -1,7 +1,7 @@
 
 import * as Icon from "phosphor-react";
 import { Popover } from '@headlessui/react'
-import { WidgetForm } from "./WidgetForm";
+import { WidgetForm } from "./WidguetForm";
 
 
 export function Widget ()  {
